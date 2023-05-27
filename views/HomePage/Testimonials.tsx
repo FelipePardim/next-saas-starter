@@ -11,29 +11,29 @@ import { media } from 'utils/media';
 const TESTIMONIALS = [
   {
     companyLogoUrl: '/testimonials/company-logo-1.svg',
-    content: `Really good. I am so pleased with this product. I didn't even need training.`,
+    content: `Muito bom. Estou muito satisfeito com o produto. As parcerias com a cooperativa auxiliaram no escoamento da minha produção`,
     author: {
-      name: 'Clyde Edwards',
-      title: 'Very Serious Man',
-      avatarUrl: '/testimonials/author-photo-1.jpeg',
+      name: 'Plinio Kuhn',
+      title: 'Fazenda Kuhn',
+      avatarUrl: '/testimonials/author-photo-1.jpg',
     },
   },
   {
     companyLogoUrl: '/testimonials/company-logo-2.svg',
-    content: `It's really wonderful. I use saas product often. Thank You! Saas product has really helped our business.`,
+    content: `É maravilhoso. Aumentei os meus ganhos na produção em 20%.`,
     author: {
-      name: 'Jimmy Hunter',
-      title: 'Sigma Male University Graduate',
-      avatarUrl: '/testimonials/author-photo-2.jpeg',
+      name: 'Joao da Silva',
+      title: 'Fazenda Moinho Real',
+      avatarUrl: '/testimonials/author-photo-2.jpg',
     },
   },
   {
     companyLogoUrl: '/testimonials/company-logo-3.svg',
-    content: `Since I invested in saas product I made over 100,000 dollars profits. It really saves me time and effort. saas product is exactly what our business has been lacking.`,
+    content: `Desde quando investi na solução. Meus problemas com a gestão diminuiram. E ainda tenho a garantia da compra da minha produção.`,
     author: {
-      name: 'Marjorie Morgan',
-      title: 'Chief Chad Officer',
-      avatarUrl: '/testimonials/author-photo-3.jpeg',
+      name: 'Fernando Henrique',
+      title: 'Fazenda Bom Viver',
+      avatarUrl: '/testimonials/author-photo-3.jpg',
     },
   },
 ];
@@ -56,7 +56,7 @@ export default function Testimonials() {
                 <Content>“{singleTestimonial.content}”</Content>
                 <AuthorContainer>
                   <AuthorImageContainer>
-                    <NextImage src={singleTestimonial.author.avatarUrl} alt={singleTestimonial.author.name} width={48} height={48} />
+                    <NextImage src={singleTestimonial.author.avatarUrl} alt={singleTestimonial.author.name} width={128} height={128} />
                   </AuthorImageContainer>
                   <AuthorContent>
                     <AuthorName>{singleTestimonial.author.name}</AuthorName>

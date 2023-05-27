@@ -11,39 +11,42 @@ type FooterItems = SingleFooterList[];
 
 const footerItems: FooterItems = [
   {
-    title: 'Company',
+    title: 'Empresa',
     items: [
-      { title: 'Privacy Policy', href: '/privacy-policy' },
-      { title: 'Cookies Policy', href: '/cookies-policy' },
+      { title: 'Política de privacidade', href: '/privacy-policy' },
+      { title: 'Política de Cookies', href: '/cookies-policy' },
     ],
   },
   {
-    title: 'Product',
+    title: 'Produtos',
     items: [
-      { title: 'Features', href: '/features' },
-      { title: 'Something', href: '/something' },
-      { title: 'Something else', href: '/something-else' },
-      { title: 'And something else', href: '/and-something-else' },
+      { title: 'Funcionalidades', href: '/features' },
+      // { title: 'Parcerias', href: '/something' },
+      { title: 'Clientes', href: '/something-else' },
+      { title: 'Seguros', href: '/and-something-else' },
     ],
   },
   {
-    title: 'Knowledge',
+    title: 'Midias',
     items: [
       { title: 'Blog', href: '/blog' },
-      { title: 'Contact', href: '/contact' },
+      { title: 'Instagram', href: '/instagram' },
+      { title: 'Contato', href: '/contact' },
       { title: 'FAQ', href: '/faq' },
       { title: 'Help Center', href: '/help-center' },
     ],
   },
   {
-    title: 'Something',
+    title: 'Parcerias',
     items: [
-      { title: 'Features2', href: '/features2' },
-      { title: 'Something2', href: '/something2' },
-      { title: 'Something else2', href: '/something-else2' },
-      { title: 'And something else2', href: '/and-something-else2' },
+      { title: 'UTFPR', href: '/utfpr' },
+      { title: 'SEBRAE', href: '/sebrae' },
+      { title: 'ACDEV', href: '/empresa1' },
+      { title: 'Empresa 2', href: '/empresa2' },
+      { title: 'Empresa 3', href: '/empresa3' },
+
     ],
-  },
+  }
 ];
 
 export default function Footer() {
@@ -75,7 +78,7 @@ export default function Footer() {
               </a>
             </NextLink>
           </ShareBar>
-          <Copyright>&copy; Copyright 2021 My Saas Startup</Copyright>
+          <Copyright>&copy; Copyright 2023 Grain Track</Copyright>
         </BottomBar>
       </Container>
     </FooterWrapper>

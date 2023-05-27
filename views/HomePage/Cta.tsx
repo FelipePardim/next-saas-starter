@@ -22,12 +22,12 @@ export default function Cta() {
           <ButtonGroup>
             <NextLink href="#early-access" passHref>
               <Button>
-                Subscribe to the newsletter <span>&rarr;</span>
+              Se inscreva na newsletter <span>&rarr;</span>
               </Button>
             </NextLink>
             <NextLink href="#whitepaper" passHref>
               <OutlinedButton transparent>
-                Features <span>&rarr;</span>
+                Funcionalidades <span>&rarr;</span>
               </OutlinedButton>
             </NextLink>
           </ButtonGroup>
